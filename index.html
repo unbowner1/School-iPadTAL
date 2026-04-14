@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talulah’s iPad Homepage</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #9052f4;
+            color: #ffffff;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.7;
+            margin-bottom: 30px;
+        }
+
+        /* Grid of big buttons */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .app-btn {
+            background: rgb(156, 156, 156);
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-decoration: none;
+            color: #ffffff;
+            transition: transform 0.15s ease;
+        }
+
+        .app-btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* Section boxes */
+        .section {
+            background: rgb(156, 156, 156);
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+
+        ul {
+            padding-left: 20px;
+            line-height: 1.7;
+        }
+        :any-link {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Good Evening, Talulah</h1>
+    <div class="subtitle">What do you want to do?</div>
+
+    <!-- Quick App Buttons -->
+    <div class="app-grid">
+        <a class="app-btn" href="https://www.lichess.org" target="_blank">Lichess</a>
+        <a class="app-btn" href="https://www.chess.com" target="_blank">Chess</a>
+        <a class="app-btn" href="https://www.sites.google.com/view/gxiplus" target="_blank">UNB</a>
+        <a class="app-btn" href="https://www.sites.google.com/view/lessons1-site" target="_blank">Lessons 1</a>
+        <a class="app-btn" href="https://www.blooket.com" target="_blank">Blooket</a>
+        <a class="app-btn" href="https://www.outlook.office.com/" target="_blank">Email</a>
+        <a class="app-btn" href="https://www.google.com" target="_blank">Google</a>
+        <a class="app-btn" href="https://www.arbor-education.com" target="_blank">Arbor</a>
+    </div>
+
+    <!-- Today’s Tasks -->
+    <div class="section">
+        <h2>Today’s Tasks</h2>
+        <ul>
+            <li>Finish homework</li>
+            <li>Charge iPad</li>
+            <li>Review notes</li>
+        </ul>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="section">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="https://my.showbie.com/classes" target="_blank">Showbie</a></li>
+            <li><a href="https://onenote.cloud.microsoft/" target="_blank">Notes</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
